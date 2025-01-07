@@ -178,3 +178,50 @@ main section{
     font-size: 30px ;
     margin: 14px 6px ;
 }
+
+/* footer styles */
+
+footer{
+    padding: 130px 380px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+/* footer form{
+    display: flex;
+    flex-direction: column;
+} */
+
+footer input[type="text"] , input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    border: none;
+    margin: 20px 0;
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+footer textarea{
+    width: 100%;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.imgs{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.imgs img{
+    width: 30px;
+}
